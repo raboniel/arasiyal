@@ -1,17 +1,34 @@
-A. Shadows of Mordor
-    #730200 - Deepest Red
-    #FBF907 - Yellow
-    #D02B03 - Bright Red
-    #0C0C0A - Black
-    #7F0602 - Deep Red
-    #D52E01 - Medium Red
+A. Regions - All at 40 % opacity
+
+0. Plain shape - #827a7a
+
+1. Chennai - #f2f2f2
+
+2. North - #0a036e
+    a. Peri Chennai - #C8C3F7
+    b. North Arcot - #0F0787
+    c. South Arcot - #1545E6
+    d. Baramahal - #7058E8
+
+3. Kongu - #0aa817
+    a. Baramahal - #03614E
+    b. Ponni - #55E645
+    c. Mountain - #0E6306
+    d. Kovai - #A8C76F
+    e. Union - #324A06
+
+4. Delta - #ff0505
+    a. Western Chola - #700303
+    b. Coastal Chola -  #E60707
+    c. Central Chola - #F07575
+
+5. South - #e0c80d
+    a. Ramnad - #E6DA77
+    b. Central Pandya - #EDE609
+    c. Cape - #5C5002
 
 
-B. Pongamia
-    #446A07 - Medium Green
-    #486B03 - Medium Green 2
-    #1F3201 - Dark Green
-    #323B32 - Dark Green 2
-    #E2F722 - Light Green [very]
-    #A89157 - Light Brown
-    #5E3E12 - Dark Brown
+B. Alliances
+
+    1. DMK - #870505
+    2. AIADMK -  #228F0E
