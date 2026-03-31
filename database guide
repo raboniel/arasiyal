@@ -1,0 +1,235 @@
+
+The base data for the database has been taken from two sources:
+
+1. ECI data from :
+https://old.eci.gov.in/files/file/13680-tamil-nadu-general-legislative-election-2021/ 
+[File Number 10 – Detailed Results]
+
+2. Wikipedia page for the 2021 Tamil Nadu elections : https://en.wikipedia.org/wiki/2021_Tamil_Nadu_Legislative_Assembly_election 
+
+A. Geography
+
+This section relates to the base identity of the constituency. The primary source for this section is from the Wikipedia page.
+
+1. Number – number allotted to the constituency
+
+2. Name – name of the constituency
+
+a. Names with a dash in the middle have been separated into two different words. 
+
+19 Chepauk Thiruvallikeni
+95 Paramathi Velur
+
+b. Where there was direction included in the name of the constituency which was in brackets, the brackets have been removed and name made into two different words.
+
+ 88  Salem West
+ 89  Salem North
+ 90  Salem South
+ 98  Erode East
+ 99  Erode West
+113 Tiruppur North
+114 Tiruppur South
+118 Coimbatore North
+120 Coimbatore South
+
+c. There are two Tirupatturs with one named Tirupattur (Vellore) and Tiruppattur (Sivaganga). They have been recoded with just the first name.
+
+  50 Tirupattur
+185 Tiruppattur  [extra p in the Sivaganga one]
+
+3. District – district of the constituency
+
+There are a few constituencies which span different two districts. Here the district code has been given based on the classification in Wikipedia.
+
+125 Udumalaipettai – Tiruppur / Coimbatore taken as Tiruppur
+
+4. Imperial – constituency in imperial elections
+
+B. Factors 
+
+This section relates to the social / economic and political situation of the constituency
+
+1. Region – super region of the constituency
+
+Now there is a lot of debate on how to divide the regions in Tamil Nadu. While there is an obvious difference in the politics of the regions, the boundaries are very grey. For our analysis, I am defining the regions in my own way – this has to be as all the other classifications have their own differences and I need something I agree with completely. The logic of the division is explained below. 
+
+I have divided the state into five regions : Greater Chennai, North, Kongu, Delta and South.
+
+The unit of division here is the district. A constituency will be included in the region that a majority of the district falls into, even if individually it is closer to another region. The sub-regional grouping [subsection 2] tries to correct for this.
+
+a. Greater Chennai : this region is usually just called Chennai, but I thought this sounds grander. 
+
+Districts [1] : Chennai
+
+b. North : this region is the northern part of Tamil Nadu. I have tried to bring in the areas which have two types of politics – firstly almost the full extent of PMK politics and secondly DMDK politics. Because of this, I have also included Cuddalore district in the North [some put it in Delta region]. I have also left out Salem to Kongu. North is by far the biggest region.
+
+Districts [12] : Tiruvallur, Kanchipuram, Chengalpattu, Vellore, Ranipet, Tirupattur, Krishnagiri, Dharmapuri, Tiruvannamalai, Villupuram, Kallakurichi and Cuddalore
+
+c. Kongu : this is the western region of Tamil Nadu. I have tried to stick as close to Kongunadu boundaries as possible – expect Krishnagiri and Dharmapuri which went to north. The other choice that had to be made was Dindigul. While I was sure it went to South, in most groupings its included in Kongu. Some of the constituencies are more like Kongu and some like South TN. I have included into Kongu anyway as this seems to be a larger part.
+
+Districts [8] : Salem, Namakkal, Erode, Tiruppur, Nilgiris, Coimbatore, Dindigul and Karur
+
+d. Delta : comprises of the districts on the Kaveri delta. The only question here was  about Pudukottai, which I have included in South instead of here.
+
+Districts [7] : Tiruchirappalli, Perambalur, Ariyalur, Mayiladuthurai, Nagapattinam, Tiruvarur, Thanjavur
+
+e.  South :comprising the entire of South Tamil Nadu – basically Pandyanadu.
+
+Districts [10] : Pudukottai, Sivaganga, Madurai, Theni, Virudhunagar, Ramanathapuram, Thoothukudi, Tenkasi, Tirunelvel and Kanniyakumari
+
+
+
+
+
+3. Subregion – smaller divisions of a few districts with similarities
+
+This has been mostly my own classification. I will mention the reason behind the classification for each. Some of these may seem very random and were made just to try and find other associations. 
+
+a. Greater Chennai : this division is quite arbitrary but made for the sake of uniformity. The region has been split essentially along the lines of the imperial constituencies with the extra constituencies added to the ones closest to it.
+
+North [9] [Imperial] : Muduravoyal, Ambattur, Madavaram, Tiruvottiyur, Radhakrishnan 				         nagar, Perambur, Kolathur, Thiru Vi Ka Nagar and Royapuram
+
+Central [6] [Imperial] : Villivakam, Egmore, Harbour, Chepauk Tiruvallikeni, Thousand 				     Lights and Anna Nagar
+
+Chennai [7] [Imperial] : Virugampakkam, Saidapet, Thiyagaraya Nagar, Mylapore, 					   Velachery, Sholinganallur and Alandur
+
+
+b. North : here the divisions basically follow a couple of different reasons based on the place
+
+Peri Chennai [3] [Geographical] : Tiruvallur, Kanchipuram and Chengalpattu. The three districts that surround Chennai. They have a large degree of urbanization.
+
+North Arcot [4] [Colonial] : Vellore, Ranipet, Tirupattur and Tiruvannamalai. Based on the boundaries of the great nation.
+
+South Arcot [3] [Colonial]: Villupuram, Kallakurichi and Cuddalore. The Arcot at home.
+
+Baramahal [2] [Early Imperial] : Krishnagiri and Dharmapuri. Thanks to Tipu.
+
+c. Kongu : here the divisions are even more arbitrary. 
+
+Baramahal [1] [Early Imperial] : Salem
+
+Ponni [3] [Geographical] : Erode, Namakkal and Karur. The three districts on the banks of the Kaveri.
+
+Mountain Kongudam [1] [Geographical] : Nilgiris. For those on the borders of Terrani politics.
+
+Kovai [1] [Geographical] : Coimbatore. Where the rot begins.
+
+Union [2] [Geographical] : Tiruppur and Dindigul. Has a communist presence, drier in geography and more smaller industries.
+
+
+
+
+
+
+
+
+4. Urbanism – the rough level of urbanisation
+
+Here again the classification gets a little bit more murky. Its easy get the cities but after that it gets more difficult.
+
+a. Metro : I have taken only the 16 constituencies in the central Chennai area. This division actually corresponds to the Chennai region usually taken for regional analysis of Chennai.
+
+b. City : here I have actually included the list of cities in Tamil Nadu with corporation area population over 100000. The list can be accessed at :
+https://nskfdc.nic.in/writereaddata/files/1Lakh_and_Above.xlsx and https://en.wikipedia.org/wiki/List_of_cities_in_Tamil_Nadu_by_population
+
+I have also considered the constituencies in Chennai district that are not a metro as cities. In cities with multiple constituencies named after directions, I have included all of them as cities. In just the case of Coimbatore, I have included Singanallur as a city as it is geographically the same.
+
+c. Town : here is where I have had most amount of trouble. Given the spread of towns and the high degree of urbanisation in many villages, however we classify, we will have trouble. For this, I am using a very simplistic division. There is a list of every municipality in Tamil Nadu accessed from :
+https://en.wikipedia.org/wiki/List_of_towns_in_Tamil_Nadu_by_population . The original links arent opening so I am settling for this.
+
+For now I have included all constituencies which have a municipality within its borders as Town. I have also included some constituencies at the border of cities which have a spillover of urbanisation as Towns.
+
+I need all of your help in recategorising them into Town [Main] constituencies like Tiruchengode or Town [Rural] constituencies like Harur and Yercaud. There is no strict criteria for this, so we will have to make one.
+
+d. Rural : where there is no municipality
+
+
+5. Reserved – officially reserved constituencies
+
+This is straightforward and taken from ECI.
+
+
+6. Special – few extra special interests
+
+This is more of a miscellaneous column for me to keep note.
+
+a. Root : constituencies where any member of the Church of the Reformed Bridge was born or lived a significant time
+
+b. Interest : just random interesting things I find
+
+
+
+
+
+7. Leader – constituencies of party leaders
+
+I have only taken few. To be qualified, you need to be the leader of the party in an alliance [or individually] able to capture state power. The party needs to have stood in atleast two seats too. The leader should also have featured in the top five results of the constituency.
+
+
+8. Satrapy – the individual kottais of people [after 1967]
+
+This has been my favourite to define. There are two types of satrapies – current and legacy. Current applies to sitting MLAs.
+
+To be a satrap, you need to :
+	Have held a seat atleast once [to filter out alternate victories]
+	Have won a seat with atleast thrice 
+	
+This also removes just two time MLAs and breakaway MLAs eg – INC to TMC just once
+
+The satrapy is coded with the party of the satrap. In case there has been a party switch, the party they defected to has been chosen.
+
+Satrapies of both parties are coded with both parties, latest coming first.                                        
+
+9. Legacy Satrapy
+
+Older Satrapies are stored here. In case it has been two parties, the later party is written first
+
+10. Kottai
+
+If any party [not including breakaways] has managed to win the last three elections in a row [not including by-elections] it becomes a kottai. 
+
+
+11. Legacy Kottai
+
+Older kottais without a sitting MLA in that party. In case there are two kottais, the later is coded first. Legacy kottais need a four election streak to be counted.
+
+
+12. Legacy – where the tallest shadows were cast
+
+Any constituency where Kamarajar, Anna, Kalaignar, MGR , Amma or Captain has contested
+
+In case more than one person has contested, the earlier person is code 
+
+
+C. Base Data
+
+This section deals with the basic electoral database
+
+10. Electorate : total eligible electorate
+
+11. Turnout : total number of votes cast
+
+12. Turnout % : (turnout / electorate) * 100
+
+13. Margin : margin of victory. Calculated as alliance one votes – alliance two votes
+
+14. Margin % : (margin / turnout) * 100
+
+15. Anna Index : my greatest contribution to Tamil Nadu political analysis [just the name]. The index is the sum of the vote shares gathered by the DMK alliance and AIADMK alliance. It essentially shows the percentage of people voting for the two Dravidian majors.
+
+D. Election-wise results
+
+This section deals with the results of the parties with the five highest votes in each constituency. Why did I choose just five – convenience mostly.
+The section is divided into First, Second, Third, Fourth and Fifth in order of the parties with the highest to lowest votes.
+
+16. Alliance : Coded as DMK+, AIADMK+, NTK, PFA, PF, Independant and NOTA
+
+17. Party : Some of the one seat parties are just coded with the symbol they stood in
+
+18. Name : I have removed all . Between the initials. I have kept the original spelling for each. People who have the place names as prefixes, I have retained only if they are an official satrap
+
+19. Vote : total votes
+
+20. Vote Share : (votes / turnout) * 100
+
+The same repeats in this order for the next four results.
