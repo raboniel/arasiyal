@@ -4,6 +4,6 @@ This repository contains all the code and related aspects of the Tamil Nadu elec
 
 All of the code is written in R.
 
-The maps are made with krata and the charts thereof are made in Canva.
+The maps are made with krata https://krata.app/
 
 The final blogs for this can be found at https://substack.com/@arasiyal
